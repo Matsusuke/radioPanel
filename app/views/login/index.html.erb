@@ -1,1 +1,17 @@
 <h1>Strona Logowania</h1>
+<%= form_for :login do |f| %>
+	<p>
+		<%= f.label :text %>:
+		<%= f.text_field :text %>		
+	</p>
+
+	<p>
+		<%= f.label :password %>:
+		<%= f.password_field :password %>	
+	</p>
+	
+	<p>
+		<%= f.submit %>
+	</p>
+
+<% end %>
