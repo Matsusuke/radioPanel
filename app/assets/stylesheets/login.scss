@@ -1,3 +1,18 @@
 // Place all the styles related to the login controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.loginBox {
+  margin-top: 12%;
+  margin-left: 30%;
+  width: 40%;
+  height: 30%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+  border: 2px solid #ffff99;
+  background-color: #FFFF6E;
+}
+
+h1 {
+  font-size:20px;
+  text-align: center;
+}
