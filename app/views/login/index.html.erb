@@ -2,7 +2,7 @@
 <%= stylesheet_link_tag "login.scss" %>
 <div class="loginBox">
 	<h1>Strona Logowania</h1>
-		<%= form_for :login do |f| %>
+		<%= form_for(:login_controller, url: login_path) do |f| %>
 			<p>
 				<%= f.label :text %>:
 				<%= f.text_field :text %>		
